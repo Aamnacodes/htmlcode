@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datalist Vs Select</title>
+</head>
+<body>
+    <label for="cars"></label>
+    <select>
+        <option value="volvo">Volvo</option>
+        <option value="Saab">Saab</option>
+        <option value="opel"selected>Opel</option>
+        <option value="Audi">Audi</option>
+    </select>
+    <br>
+    <hr>
+    <br>
+    <label for="cars">Choose a car:</label>
+    <input type="text" list="cars" name="cars"/>
+    <datalist id="cars">
+        <option>Volvo</option>
+        <option>Saab</option>
+        <option >Opel</option>
+        <option >Audi</option>
+    </datalist>
+</body>
+</html>
