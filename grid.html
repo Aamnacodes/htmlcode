@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>using CSS grids</title>
+    <style>
+        :root{
+            --theme-background: rgb(231,174,229);
+            --theme-text: rgb(98,16,98);
+        }
+
+        .child{
+            border: 3px solid var(--theme-text);
+            background-color: var(--theme-background);
+            padding:28px;
+            color: var(--theme-text);
+        }
+
+        .container{
+            display:grid;
+            grid-template-columns: repeat(4,1fr);
+            grid-template-rows: repeat(2,400px);
+            gap: 20px;
+            background-color: blueviolet;
+            height:calc(100vh-106px);
+        }
+
+        body{
+            background-color: var(--theme-background);
+            margin:0;
+        }
+        .navbar{
+            background-color: var(--theme-background);
+            border: 3px solid var(--theme-text);
+            height:100px;
+        }
+    </style>
+</head>
+<body>
+    
+</body>
+</html>

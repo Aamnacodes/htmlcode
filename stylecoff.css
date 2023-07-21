@@ -1,0 +1,77 @@
+header{
+    background-color: #D79771; 
+    font-family: 'Great Vibes', cursive;  
+   color:black;
+
+  /* font-family: 'Sacramento', cursive;  */
+}
+body{
+ 
+background-size: cover;
+background-position: center;
+background-image: url(99865-OLF1IN-609.jpg);
+background-attachment: fixed;
+
+
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+   color: bisque;
+   background-color:#000;
+}
+
+.fs-5 {
+font-size: 2rem!important;
+}
+
+
+
+.nav-link{
+   color: #000 ;
+   
+}
+
+.navbar-custom .navbar-nav .nav-link {
+  color:bisque;
+}
+.btn-custom{
+background-color: peru;
+}
+.custhead{
+color:#B05B3B;
+font-weight: bolder;
+}
+
+/* content{
+width:100%;
+margin: 4em auto;
+font-size:20px;
+line-height:30px;
+text-align:justify;
+} */
+.nav nav-pills navbar-custom::after{
+content: '';
+width:0%;
+height:2px;
+background:#FFFFFF;
+display:block;
+margin:auto;
+transition: 0.5s;
+}
+.nav nav-pills navbar-custom:hover::after{
+width:100%;
+
+}
+.text-box{
+width:90%;
+color:#B05B3B;
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+text-align:center;
+}
+.text-box h1{
+font-size:62px;
+
+}
