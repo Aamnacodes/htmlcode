@@ -1,0 +1,13 @@
+.myclass{
+  color:red;
+  background-color: lightcoral;
+}
+.nav-item .active{
+   font-weight: bold;
+   border-bottom: 2px solid crimson;
+   color:crimson !important;
+}
+
+.list-back{
+  background-image: url("/public/listing-back.jpg");
+}
